@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patientez...</title>
+    <link rel="icon" href="img/redar.png">
+</head>
+<!-- css -->
+<style>
+  :root {
+    --primary: #b9121a;
+    --text-color: #f0f8ff;
+    --font-title-1: 'Times New Roman', Times, serif;
+    --font-text-1: "Poppins", sans-serif;
+    --font-text-2: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+</style>
+<body>
+   <div style="width: 100%; height: 100vh; background-color: aliceblue; display: flex; flex-direction: column; justify-content: center; align-items: center;"">
+      <img style="width: 15%;" src="img/publish_sucess.png" alt="loading...">
+      <h1 style="color: black; text-align: center;">Votre demande a été prise en compte.</h1>
+      <br>
+      <h3 style="color: gray; text-align: center;">Vous allez être redirigé sous peu...</h3>
+   </div>
+   <script>
+      setTimeout(() => {
+        window.close();
+      }, 3000);
+    </script>
+</body>
+</html>
